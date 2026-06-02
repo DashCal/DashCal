@@ -10,11 +10,13 @@
     }
 
     @media (prefers-color-scheme: dark) {
+     :root{
       --fg: var(--fgColor-default, #f0f6fc);
       --bg-main: var(--bgColor-default, #0d1117);
       --bg: var(--bgColor-muted, #151b23);
       --accent: var(--bgColor-accent-emphasis, #1f6feb);
       --muted: var(--fgColor-muted, #9198a1);
+      }
     }
     
     * { font-family: "Mona Sans VF", Mona Sansy, system-ui; }
