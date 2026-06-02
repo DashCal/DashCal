@@ -1,26 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
   <style>
     :root {
       /* backup color for fallback */
       --fg: var(--fgColor-default, #24292f);
-      --bg: var(--color-canvas-subtle, #f6f8fa);
-      --accent: var(--color-accent-fg, #0969da);
-      --muted: var(--color-fg-muted, #57606a);
+      --bg-main: var(--bgColor-default, #ffffff);
+      --bg: var(--bgColor-muted, #f6f8fa);
+      --accent: var(--bgColor-accent-emphasis, #0969da);
+      --muted: var(--fgColor-muted, #59636e);
     }
-    
-    .bg { fill: var(--bg); }
-    .name { font: bold 32px; font-family: Mona Sans VF, system-ui; font-weight: 800; fill: var(--fg); }
-    .desc { font: 16px; font-family: Mona Mono VF, monospace; fill: var(--muted); }
+    * { font-family: "Mona Sans VF", Mona Sansy, system-ui; }
+    .bg { fill: var(--bg-main); }
+    .name { font-size: 24px; font-weight: 900; fill: var(--fg); }
+    .cloud { font-size: 24px;}
+    .cloud-1 { font-size: 22px;}
+    .cloud-2 { font-size: 20px;}
+    .cloud-3 { font-size: 18px;}
+    .cloud-4 { font-size: 16px;}
+    .cloud-4 { font-size: 16px;}
+    .desc { font-size: 16px; font-weight: 400; fill: var(--muted); }
     .highlight { fill: var(--accent); font-weight: bold; }
-    
-    /* hover effect */
-    .card { transition: transform 0.2s; }
-    .card:hover { transform: translateX(4px); }
+    .hr { fill: var(--bg); }
   </style>
   
-  <rect class="bg card" x="0" y="0" width="480" height="90" rx="8"/>
-  <text x="20" y="40" class="name">DashCal</text>
+  <rect class="bg" x="0" y="0" width="500" height="100" rx="6"/>
+  <text x="20" y="42" class="name">DashCal</text>
+  <text x="450" y="45" class="cloud">☁️</text>
+  <text x="440" y="55" class="cloud-1">☁️</text>
+  <text x="400" y="35" class="cloud-2">☁️</text>
+  <text x="410" y="65" class="cloud-3">☁️</text>
+  <text x="435" y="30" class="cloud-4">☁️</text>
+  <text x="425" y="50" class="cloud-5">☁️</text>
   <text x="20" y="70" class="desc">
-    <tspan class="highlight">design</tspan> × <tspan class="highlight">code</tspan> × <tspan class="highlight">systems</tspan>
+    <tspan class="highlight">Seeking fun ideas.</tspan>
   </text>
+  <rect class="hr" x="10" y="90" width="480" height="2" rx="6"/>
+  
 </svg>
