@@ -1,8 +1,10 @@
-<picture>
+<!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/3c51ca1e-ff8b-4aaf-b24c-f5b6b58f1d0a">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/884335bb-aef8-4bb4-a810-8cddf5dac119">
   <img width="360" alt="dashcal-main" src="https://github.com/user-attachments/assets/884335bb-aef8-4bb4-a810-8cddf5dac119" />
-</picture>
+</picture> -->
+
+<img width="3600" alt="dashcal-main" src="https://raw.githubusercontent.com/DashCal/DashCal/d2e854e25e3c1ae7ccda52bccb0a0f491fce118a/asset/header.svg" />
 
 ---
 
