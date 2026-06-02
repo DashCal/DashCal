@@ -4,7 +4,7 @@
   <img width="360" alt="dashcal-main" src="https://github.com/user-attachments/assets/884335bb-aef8-4bb4-a810-8cddf5dac119" />
 </picture> -->
 
-<img width="3600" alt="dashcal-main" src="https://raw.githubusercontent.com/DashCal/DashCal/d2e854e25e3c1ae7ccda52bccb0a0f491fce118a/asset/header.svg" />
+<img width="3600" alt="dashcal-main" src="https://raw.githubusercontent.com/DashCal/DashCal/2d2f788cb0ec6bcc3460049ef73ba9f8c30367fd/asset/header.svg" />
 
 ---
 
