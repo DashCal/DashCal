@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 100">
+  <style>
+    :root {
+      /* backup color for fallback */
+      --fg: var(--color-fg-default, #24292f);
+      --bg: var(--color-canvas-subtle, #f6f8fa);
+      --accent: var(--color-accent-fg, #0969da);
+      --muted: var(--color-fg-muted, #57606a);
+    }
+    
+    .bg { fill: var(--bg); }
+    .name { font: bold 32px system-ui; fill: var(--fg); }
+    .desc { font: 16px monospace; fill: var(--muted); }
+    .highlight { fill: var(--accent); font-weight: bold; }
+    
+    /* hover effect */
+    .card { transition: transform 0.2s; }
+    .card:hover { transform: translateX(4px); }
+  </style>
+  
+  <rect class="bg card" x="0" y="0" width="480" height="90" rx="8"/>
+  <text x="20" y="40" class="name">yourname</text>
+  <text x="20" y="70" class="desc">
+    <tspan class="highlight">design</tspan> × <tspan class="highlight">code</tspan> × <tspan class="highlight">systems</tspan>
+  </text>
+</svg>
