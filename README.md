@@ -1,22 +1,12 @@
-## 👋 Hi, I’m @DashCal
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/3c51ca1e-ff8b-4aaf-b24c-f5b6b58f1d0a">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/884335bb-aef8-4bb4-a810-8cddf5dac119">
+  <img width="360" alt="dashcal-main" src="https://github.com/user-attachments/assets/884335bb-aef8-4bb4-a810-8cddf5dac119" />
+</picture>
 
-[PdcST](https://github.com/DashCal/CommonPdcST)
-[PdcTA](https://github.com/DashCal/CommonPdcTA)
-[To](https://github.com/DashCal/CommonTo)
-[PreA](https://github.com/DashCal/CommonPreA)
-[Home](https://github.com/DashCal/CommonHome)
-[Lrcr](https://github.com/DashCal/CommonLrcr)
-[ResTwo](https://github.com/DashCal/CommonResTwo)
-[ResOne](https://github.com/DashCal/CommonResOne)
-[Api](https://github.com/DashCal/CommonApi)
-[Distributor](https://github.com/DashCal/CommonDistributor)
-[CtnManager](https://github.com/DashCal/CommonCtnManager)
-[BasiC](https://github.com/DashCal/CommonBasiC)
-[DashCal](https://github.com/DashCal/DashCal)
-[Remark](https://github.com/DashCal/CommonRemark)
-[LCA](https://github.com/DashCal/CommonLCA)
-[Clock](https://github.com/DashCal/CommonClock)
-[StcLs](https://github.com/DashCal/CommonStcLs)
+---
+
+🎯 Seeking fun ideas... 
 
 <!---
 DashCal/DashCal is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
