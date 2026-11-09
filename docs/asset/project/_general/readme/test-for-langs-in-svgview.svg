@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <style>
+    .en { fill: #0066cc; }
+    .zh { fill: #cc0000; }
+  </style>
+
+  <!-- 定义两个视图：en 视图聚焦上半部分，zh 视图聚焦下半部分 -->
+  <view id="en" viewBox="0 0 800 200" />
+  <view id="zh" viewBox="0 200 800 200" />
+
+  <!-- 上半部分：英文文字 -->
+  <text x="400" y="80" text-anchor="middle" font-size="40" class="en">
+    A multi-track audio pre-edit workflow
+  </text>
+
+  <!-- 下半部分：中文文字 -->
+  <text x="400" y="320" text-anchor="middle" font-size="40" class="zh">
+    多轨音频预处理工作流
+  </text>
+</svg>
